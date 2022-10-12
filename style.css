@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+#sideContainer{
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 2.3fr;
+    height: 98vh;
+}
+#venstreContainer{
+    background-color: blue;
+    display: grid;
+    grid-template-rows: 1.3fr 2fr;
+    padding: 10px;
+    height: 100%;
+
+}
+#venstreTopp{
+    padding: 10px;
+    background-color: orange;
+}
+#venstreBunn{
+    padding: 10px;
+    background-color:greenyellow;
+}
+#høyreContainer{
+    background-color: red;
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    padding: 10px;
+    height: 100%;
+}
+#høyreTopp{
+    background-color: yellow;
+    padding: 10px;
+}
+#høyreBunn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: purple;
+    padding: 10px;
+}
+#høyreBunnVenstre{
+    background-color:aqua;
+    padding: 10px;
+}
+#høyreBunnHøyre{
+    background-color:brown;
+    padding: 10px;
+}
