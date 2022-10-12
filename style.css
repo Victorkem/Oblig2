@@ -2,49 +2,156 @@ body{
     margin: 0px;
 }
 #sideContainer{
-    background-color: green;
+    background-color: rgb(35, 35, 35);
     display: grid;
-    grid-template-columns: 1fr 2.3fr;
-    height: 98vh;
+    padding-left: 7%;
+    padding-right: 7%;
+    grid-template-columns: 1.6fr 3fr;
+    height: 100vh;
 }
 #venstreContainer{
-    background-color: blue;
+    background-color: white;
     display: grid;
     grid-template-rows: 1.3fr 2fr;
     padding: 10px;
-    height: 100%;
+    padding-left: 40px;
+    height: 97vh;
 
 }
 #venstreTopp{
     padding: 10px;
-    background-color: orange;
+    padding-top: 0px;
+    padding-right: 20%;
+    font-size: 120%;
+}
+#venstreTopp h1{
+    padding-top: 0px;
+    margin: 0px;
+}
+#venstreTopp p{
+    font-size: 80%;
+}
+#venstreToppBunn{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 10%;
+    font-size: 50%;
+    margin: 0px;
+    padding: 0px;
+}
+#profilBilde{
+    height: 80%;
+    width: 80%;
 }
 #venstreBunn{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#venstreBunn div{
+    margin: 2px;
+    padding: 2px;
+    font-size: 6.8px;
+}
+#venstreBunnHøyre{
+    border-width: 1px;
+    border-top: 0px;
     padding: 10px;
-    background-color:greenyellow;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: black;
 }
 #høyreContainer{
-    background-color: red;
     display: grid;
     grid-template-rows: 1.5fr 1fr;
     padding: 10px;
-    height: 100%;
+    padding-right: 40px;
+    height: 97vh;
+    background-color: white;
+    border-width: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: black;
 }
 #høyreTopp{
-    background-color: yellow;
-    padding: 10px;
+    background-image: url(https://premium.vgc.no/v2/images/99d29889-910b-441d-930b-e283121028d0?fit=crop&format=auto&h=996&w=1494&s=a7e28d21c07e36947a68153e756781a24858116a);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
 #høyreBunn{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: purple;
-    padding: 10px;
+    grid-template-columns: 1.2fr 1fr 2fr;
+    padding: 0px;
+}
+#høyreBunn div{
+    margin: 0px;
+    padding: 2px;
+    font-size: 6.8px;
 }
 #høyreBunnVenstre{
-    background-color:aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 10px;
 }
-#høyreBunnHøyre{
-    background-color:brown;
+#høyreBunnMidten{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 10px;
+}
+#høyreBunnMidtenHøyre{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    border-width: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 1px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: black;
+}
+#høyreBunnHøyre{
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 3fr 1fr;
+    padding: 0px;
+}
+#høyreBunnHøyreVenstre{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+#høyreBunnHøyreVenstreTopp{
+    background-image: url(https://premium.vgc.no/v2/images/ca008e7c-0e47-4b0e-af54-8cc9095b3055?fit=crop&format=auto&h=1365&w=2048&s=379aca70bab89698089428a93f2570d948166c99);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#høyreBunnHøyreVenstreBunn{
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+}
+#høyreBunnHøyreHøyre{
+    border-width: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.blåTekst{
+    color: #04a1de;
+    font-weight: bold;
+    font-size: 12px;
+}
+.bold{
+    font-weight: bold;
+}
+.kursiv{
+    font-style: italic;
 }
