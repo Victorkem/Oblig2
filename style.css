@@ -10,8 +10,34 @@
 #Logo{
     height: 35px;
 }
-
-
+#blå{
+    color: rgb(3,162,222);
+}
+#F::first-letter {
+    -webkit-initial-letter: 3;
+            initial-letter: 3;
+  font-weight: bold;
+  margin-right: .75em;
+  }
+#tittel {
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+}
+#forfatter {
+    display: flex;
+    flex-direction: row;
+}
+#forfatterNavn {
+    display: flex;
+    flex-direction: column;
+}
+#portrett {
+    height: 50px;
+}
+article {
+    padding-left: 2px;
+    padding-right: 2px;
+}
 #mainContainer{
     display: flex;
     flex-direction: row;
@@ -19,7 +45,7 @@
 #HS{
     display: flex;
     flex-direction: column;
-    width: 120%;
+    width: 80%;
     margin-left: 5px;
     margin-top: 3px;
 
@@ -37,6 +63,7 @@
     display: inline-flex;
     justify-content: space-evenly;
     flex-direction: row;
+    width: 100%;
 }
 #vsText1{
     display: flex;
@@ -45,19 +72,26 @@
 }
 #vsFakta{
     margin-left: 3px;
+    width: 110%;
 }
 #hsTextContainer{
     display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: 100%;
 }
 #bilde2Container{
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    padding-right: 3px;
+    margin-right: 3px;
+    padding-left: 3px;
 }
 #bilde2{
-    margin-top: 10px;
-    width: 60%;
+    padding-top: 3px;
+    width: 100%;
 }
