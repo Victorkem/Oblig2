@@ -82,6 +82,21 @@ article {
     justify-content: space-evenly;
     height: 100%;
 }
+#hsTextList {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 4px;
+    margin: 5px;
+}
+#hsTopText {
+    margin-bottom: 20px;
+}
+#arrow-up {
+    list-style-image: url(/bilder/arrow-blue-up.svg);
+}
+#arrow-left {
+    list-style-image: url(/bilder/arrow-blue-left.svg);
+}
 #bilde2Container{
     display: flex;
     justify-content: center;
