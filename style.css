@@ -16,10 +16,18 @@
     color: rgb(3,162,222);
 }
 #F::first-letter {
-    -webkit-initial-letter: 3;
+    font-size: 300%;
+    margin: 0px;
+    padding-right: 3px;
+    float: left;
+    line-height: 100%;
+    font-weight: bold;
+   /* -webkit-initial-letter: 3;
             initial-letter: 3;
   font-weight: bold;
-  margin-right: .75em;
+  margin-right: .75em; 
+  --- Dette fungerer bare i safari --- 
+  */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 #tittel {
