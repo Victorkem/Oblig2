@@ -6,7 +6,9 @@
     height: 40px;
     border-bottom: 1px solid black;
 }
-
+#kategori{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #Logo{
     height: 35px;
 }
@@ -18,6 +20,7 @@
             initial-letter: 3;
   font-weight: bold;
   margin-right: .75em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 #tittel {
     border-bottom: 1px solid black;
