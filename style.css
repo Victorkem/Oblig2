@@ -144,6 +144,16 @@ body{
     border-style: solid;
     border-color: black;
 }
+#profilBoks p{
+    margin: 0px;
+}
+#førsteAvsnitt::first-letter{
+    font-size: 200%;
+    margin: 0px;
+    float: left;
+    line-height: 100%;
+    font-weight: bold;
+}
 .blåTekst{
     color: #04a1de;
     font-weight: bold;
