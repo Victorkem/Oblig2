@@ -103,10 +103,10 @@ article {
     margin-bottom: 20px;
 }
 #arrow-up {
-    list-style-image: url(/bilder/arrow-blue-up.svg);
+    list-style-image: url(bilder/arrow-blue-up.svg);
 }
 #arrow-left {
-    list-style-image: url(/bilder/arrow-blue-left.svg);
+    list-style-image: url(bilder/arrow-blue-left.svg);
 }
 #bilde2Container{
     display: flex;
